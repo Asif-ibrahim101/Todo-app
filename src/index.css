@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  max-height: 350px;
+  background-image: url(../images/bg-desktop-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px){
+  
+  .heading{
+    width: 350px;
+  }
+  
+  .input{
+    width: 350px;
+  }
+  
+  .todoItems{
+    width: 350px;
+  }
+
+}
